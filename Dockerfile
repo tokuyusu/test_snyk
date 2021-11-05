@@ -4,6 +4,6 @@
 
 FROM python:3.11-rc-slim
 RUN pip3 install flask==0.12.0
-COPY flask_server.py /
+COPY ./* /
 
 CMD python flask_server.py
