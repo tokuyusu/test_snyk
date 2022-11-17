@@ -2,7 +2,7 @@
 # Using vulnerable Python library: flask 0.12.0
 # https://security.snyk.io/vuln/SNYK-PYTHON-FLASK-451637
 
-FROM python:3.11-rc-slim
+FROM python:3.12-rc-slim
 RUN pip3 install flask==0.12.0
 COPY ./* /
 
